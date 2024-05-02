@@ -1,0 +1,56 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+
+    font-size: 14px;
+}
+
+#root {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(131, 131, 131);
+}
+.react-flow__handle::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: gray;
+    display: block;
+    border-radius: 100%;
+}
+.react-flow__handle {
+    width: 15px !important;
+    height: 15px !important;
+    border: none !important;
+    background: rgba(128, 128, 128, 0.2) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MuiTabItem-label {
+    font-size: 12px;
+}
+
+.react-flow__handle-right {
+    right: -7.5px !important;
+}
+
+.react-flow__handle-top {
+    top: -7.5px !important;
+}
+
+.react-flow__handle-bottom {
+    bottom: -7.5px !important;
+}
+
+.react-flow__handle-left {
+    left: -7.5px !important;
+}
